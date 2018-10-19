@@ -163,8 +163,8 @@
             document.getElementById('goals').innerHTML = null;
             document.getElementById('todos').innerHTML = null;
 
-            goals.forEach(goal => addGoalToDOM(goal));
-            todos.forEach(todo => addTodoToDOM(todo));
+            goals.forEach(addGoalToDOM);
+            todos.forEach(addTodoToDOM);
 
         });
 
